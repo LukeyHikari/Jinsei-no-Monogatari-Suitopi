@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define h = Character("Hikari")
 
 
 # The game starts here.
@@ -20,13 +20,15 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show hikari sad 
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    h "Sigh... {i}when did it become like this {/i}"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    h "{i}I haven\’t felt this way in a long time. So… dull..? It\’s like everything is so dull.{/i}"
+
+    h "{i}I\’m just typing away right now, though.{/i}"
 
     # This ends the game.
 
