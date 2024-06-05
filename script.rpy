@@ -16,10 +16,6 @@ label start:
 
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
     show hikari sad 
 
     # These display lines of dialogue.
